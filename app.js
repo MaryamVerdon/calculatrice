@@ -6,3 +6,6 @@ document.addEventListener('keydown', function(event) {
     var valeur = event.keyCode.toString();
 });
 
+document.addEventListener('click', function(event){
+    var valeur = event.target.dataset.key; 
+});
